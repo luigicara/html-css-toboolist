@@ -1,3 +1,4 @@
+/* general rules */
 * {
     margin: 0;
     padding: 0;
@@ -6,5 +7,138 @@
 
 body {
     background-color: #f6f8f9;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+header {
+    background-color: white;
+}
+
+header img {
+    margin: 10px 0px 10px 20px;
+    vertical-align: middle;
+}
+
+header span {
+    font-size: 40px;
+}
+
+/* main body and container */
+#main-body {
+    background-color: white;
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 5px;
+    color: #444851;
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* nav */
+nav {
+    border-bottom: 2px solid #f6f8f9;
+}
+nav button {
+    font-size: 11px;
+    border-radius: 5px;
+    margin: 15px 0 10px;
+}
+
+#light-blue {
+    background-color: #47adf1;
+    color: white;
+    padding: 7px 10px;
+    border: 0px;
+}
+
+#white {
+    background-color: white;
+    color: #cfd3d8;
+    border: 1px solid #cfd3d8;
+    padding: 6px 10px;
+}
+
+/* main */
+section {
+    margin: 25px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul strong {
+    font-size: 20px;
+}
+
+ul strong:before {
+    content: '\25BC';
+}
+
+li{
+    margin: 20px 0;
+}
+
+.sign {
+    font-size: 10px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    line-height: 15px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.check {
+    color: green;
+    border: 1px solid green;
+}
+
+.cross {
+    color: red;
+    border: 1px solid red;
+}
+
+.label {
+    font-size: 10px;
+    border-radius: 15px;
+    color: white;
+    padding: 7px 10px;
+    border: 0px;
+}
+
+.editorial {
+    background-color: #47adf1;
+}
+
+.q1-goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales {
+    background-color: #b0c926;
+}
+
+.last {
+    margin-bottom: 50px;
 }
 
