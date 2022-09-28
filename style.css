@@ -23,6 +23,7 @@ header img {
 
 header span {
     font-size: 40px;
+    vertical-align: middle;
 }
 
 /* main body and container */
@@ -136,9 +137,5 @@ li{
 
 .sales {
     background-color: #b0c926;
-}
-
-.last {
-    margin-bottom: 50px;
 }
 
